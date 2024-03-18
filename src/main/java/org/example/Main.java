@@ -1,8 +1,18 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter width of rectangle:");
+        double width = scanner.nextDouble();
+        System.out.println("Enter height of rectangle:");
+        double height = scanner.nextDouble();
+        System.out.println("Area of rectangle: " + area(width,height));
+
+
     }
 
     public static boolean shouldWakeUp(boolean isBarking, int clock) {
