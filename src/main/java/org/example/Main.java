@@ -11,10 +11,10 @@ public class Main {
         int clock;
         boolean isBarking;
 
-        System.out.println(shouldWakeUp (isBarking= true, clock= 1));
-        System.out.println(shouldWakeUp (isBarking= false, clock= 2));
-        System.out.println(shouldWakeUp (isBarking= true, clock= 8));
-        System.out.println(shouldWakeUp (isBarking= false, clock= -1));
+        System.out.println(shouldWakeUp ( true,  1));
+        System.out.println(shouldWakeUp (false, 2));
+        System.out.println(shouldWakeUp ( true,  8));
+        System.out.println(shouldWakeUp (false, -1));
     }
 
 
