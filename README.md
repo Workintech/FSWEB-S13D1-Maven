@@ -77,3 +77,17 @@ area(-1.0, 4.0); => -1 değerini dönmeli.
 area(5.0); => 78.53975 değerini dönmeli
 
 area(-1); => -1 değerini dönmeli.
+
+### 🧪 Testleri Çalıştırma
+
+NextGen üzerinde proje sonuçlarınızı görebilmek için testleri çalıştırmanız gerekmektedir.
+
+1. `ResultAnalyzer.java` dosyasını açın ve şu satırı NextGen proje ekranında görünen kendi bilginizle güncelleyin:
+
+```java id="k2k3xv"
+String userId = "999999";
+```
+
+2. Ardından `MainTest.java` dosyasını çalıştırarak testleri başlatabilirsiniz.
+
+3. Gerektiğinde proje çözümlerinizi kontrol edebilmemiz için kodlarınızı GitHub'a pushlamayı unutmayın.
